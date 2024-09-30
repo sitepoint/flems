@@ -18,7 +18,7 @@ export default function(dom, state, runtimeUrl) {
     state,
     selected      : stream(findFile(state, state.selected)),
     iOS           : 'overflowScrolling' in b,
-    runtimeUrl    : runtimeUrl || runtimeUrlGuess || 'flems.html',
+    runtimeUrl    : runtimeUrl || runtimeUrlGuess || 'https://sitepoint.github.io/flems/flems.html',
     console       : {
       input         : '',
       inputNumber   : 0,
